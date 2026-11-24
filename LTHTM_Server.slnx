@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="LTHTM_Server/LTHTM_Server.vcxproj" Id="6443034b-99cd-4d2e-91a0-1c2af43058ad" />
+</Solution>
