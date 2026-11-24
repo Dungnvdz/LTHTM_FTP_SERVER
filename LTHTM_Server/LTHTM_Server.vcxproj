@@ -140,13 +140,6 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Downloads\SMTPServer\cli.cpp" />
-    <ClCompile Include="..\..\..\..\Downloads\SMTPServer\serverconfig.cpp" />
-    <ClCompile Include="..\..\..\..\Downloads\SMTPServer\session.cpp" />
-    <ClCompile Include="..\..\..\..\Downloads\SMTPServer\socket.cpp" />
-    <ClCompile Include="..\..\..\..\Downloads\SMTPServer\tcpserver.cpp" />
-    <ClCompile Include="..\..\..\..\Downloads\SMTPServer\tcpserversocket.cpp" />
-    <ClCompile Include="..\..\..\..\Downloads\SMTPServer\tcpsocket.cpp" />
     <ClCompile Include="datachannel.cpp" />
     <ClCompile Include="ftpserver.cpp" />
     <ClCompile Include="ftpserverconfig.cpp" />
@@ -156,13 +149,6 @@
     <ClCompile Include="servercli.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Downloads\SMTPServer\cli.h" />
-    <ClInclude Include="..\..\..\..\Downloads\SMTPServer\serverconfig.h" />
-    <ClInclude Include="..\..\..\..\Downloads\SMTPServer\session.h" />
-    <ClInclude Include="..\..\..\..\Downloads\SMTPServer\socket.h" />
-    <ClInclude Include="..\..\..\..\Downloads\SMTPServer\tcpserver.h" />
-    <ClInclude Include="..\..\..\..\Downloads\SMTPServer\tcpserversocket.h" />
-    <ClInclude Include="..\..\..\..\Downloads\SMTPServer\tcpsocket.h" />
     <ClInclude Include="datachannel.h" />
     <ClInclude Include="ftpserver.h" />
     <ClInclude Include="ftpserverconfig.h" />
@@ -171,7 +157,9 @@
   <ItemGroup>
     <None Include="ftp.conf" />
     <None Include="ftpaccount.conf" />
-    <None Include=".gitignore" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="root.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
